@@ -4,9 +4,14 @@
 *.dll
 *.so
 *.dylib
-
+**/vendor
+bin
+pkg
+pkg/**
 # Test binary, build with `go test -c`
 *.test
-
+.idea
+.settings
+**/.DS_Store
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
